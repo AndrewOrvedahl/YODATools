@@ -23,5 +23,5 @@ if __name__ == '__main__':
 		sys.exit(1)
 	else:
 	#Enables shell wildcard use
-	for arg in sys.argv[1:]
+	for arg in sys.argv[1:]:
 		main(arg)
